@@ -1,7 +1,7 @@
 import openpyxl
 import random
 
-workbook = openpyxl.load_workbook("a.xlsx")
+workbook = openpyxl.load_workbook("a.xlsx") #改成你喜欢的名字
 
 worksheet = workbook["Sheet1"]
 print(worksheet)
